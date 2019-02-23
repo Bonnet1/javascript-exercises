@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<script>
+const removeFromArray = function(myArray, toRemove) {
+    //myArray = myArray.toString();
+      //  console.log(myArray);
+    //toRemove = toRemove.toString();
+      //  console.log(toRemove);    
+    myArray = myArray.filter( function( el ) {
+        myArray = myArray.toString();
+        toRemove = toRemove.toString();
+            return !toRemove.indexOf( el ) < 0;
+
+        });
+    }
+
+</script>
